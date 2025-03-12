@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import Saturn from "./ui/saturn";
-import Bunny from "./ui/bunny";
-import Concrete from "./ui/concrete";
-import Nin from "./ui/ninswitch";
-import Rocket from "./ui/Rocket";
+import "@/app/globals.css";
+import Saturn from "@/components/saturn";
+import Bunny from "@/components/bunny";
+import Concrete from "@/components/concrete";
+import Nin from "@/components/ninswitch";
+import Rocket from "@/components/Rocket";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-br from-red-600 to-red-800 text-white min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-br from-black to-black text-white min-h-screen`}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen relative">
           <div className="p-0 m-0 flex items-center justify-center">

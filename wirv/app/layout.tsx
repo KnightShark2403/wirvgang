@@ -5,6 +5,7 @@ import Saturn from "./ui/saturn";
 import Bunny from "./ui/bunny";
 import Concrete from "./ui/concrete";
 import Nin from "./ui/ninswitch";
+import Rocket from "./ui/Rocket";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,26 +33,31 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-br from-red-600 to-red-800 text-white min-h-screen`}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen relative">
-          <div className="p-6 flex items-center justify-center">
+          <div className="p-0 m-0 flex items-center justify-center">
             <div className="w-full h-full">
-              <Concrete />
+              <Rocket />
             </div>
           </div>
           
-          <div className="p-6 flex items-center justify-center">
+          <div className="p-0 m-0 flex items-center justify-center">
             <div className="w-full h-full">
             {/* Saturn in Section 2 (Top Right) */}
             <Saturn />
             </div>
           </div>
           
-          <div className="p-6 flex items-center justify-center">
+          <div className="p-0 m-0 flex items-center justify-center">
+            <div className="w-full h-full">
               <Bunny />
-          
+            </div>
           </div>
           
-          <div className="p-6 flex items-center justify-center">
+
+          
+          <div className="p-0 m-0 flex items-center justify-center">
+            <div className="w-full h-full">
             <Nin />
+            </div>
           </div>
         </div>
         

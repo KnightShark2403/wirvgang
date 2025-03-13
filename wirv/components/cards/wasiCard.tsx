@@ -14,7 +14,13 @@ import {
         <div className="h-48 bg-gradient-to-r from-blue-500 to-cyan-400 relative overflow-hidden">
           {/* You can add an actual image here */}
           <div className="absolute inset-0 flex items-center justify-center text-4xl font-bold text-white/80">
-            R
+             <Image 
+                      src="/s_A0AE79177AE22FEDB3174BE4CB5E6C1B34787C78A411A18BEEE28632C821036C_1631293105745_01b.jpg" 
+                      alt="Profile" 
+                      layout="fill" 
+                      objectFit="cover" 
+                      priority
+                    />
           </div>
         </div>
         <CardHeader className="space-y-1">

@@ -25,13 +25,12 @@ const WasiCard = () => {
         <p className="text-white/80">I'm 5 foot 1 and a half!</p>
         
         <div className="mt-4 flex flex-wrap gap-2">
-          <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">React</span>
-          <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">Next.js</span>
+          <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">Designer UI/UX </span>
+          <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">C</span>
           <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">Tailwind</span>
-          <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">TypeScript</span>
-          <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">Express</span>
+          <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">HTML/CSS</span>
+          <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">Wordpress</span>
           <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">Python</span>
-          <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">Django</span>
           <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">Flask</span>
         </div>
       </CardContent>

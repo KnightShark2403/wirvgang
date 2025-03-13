@@ -11,18 +11,22 @@ import Image from "next/image";
 const WasiCard = () => {
   return (
     <Card className="overflow-hidden border border-white/10 bg-white/5 backdrop-blur-sm hover:bg-white/10 transition-colors duration-300">
-      <div className="h-48 bg-gradient-to-r from-blue-500 to-cyan-400 relative overflow-hidden">
-        {/* You can add an actual image here */}
-        <div className="absolute inset-0 flex items-center justify-center text-4xl font-bold text-white/80">
-          {/* <Image src="/app/assets/pikapika.jpg" alt="lol" width={45} height={45}/> */}
-        </div>
+      <div className="h-48 relative overflow-hidden">
+        {/* Raw image with no overlay or blend effects */}
+        <Image 
+          src="/pikapika.jpg" 
+          alt="Profile" 
+          layout="fill" 
+          objectFit="cover" 
+          priority
+        />
       </div>
       <CardHeader className="space-y-1">
         <CardTitle className="text-2xl font-bold text-white">Rishit Butola</CardTitle>
         <CardDescription className="text-blue-300">MERN Dev</CardDescription>
       </CardHeader>
       <CardContent>
-        <p className="text-white/80">My Life, My Rules!  </p>
+        <p className="text-white/80">My Life, My Rules!</p>
         
         <div className="mt-4 flex flex-wrap gap-2">
           <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">React</span>
@@ -49,7 +53,7 @@ const WasiCard = () => {
               <circle cx="4" cy="4" r="2"></circle>
             </svg>
           </a>
-          <a href="www.linkedin.com/in/wasiullah-rafeeq-s" className="hover:text-blue-400 transition-colors">
+          <a href="https://www.linkedin.com/in/wasiullah-rafeeq-s" className="hover:text-blue-400 transition-colors">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
             </svg>

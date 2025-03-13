@@ -14,15 +14,15 @@ const WasiCard = () => {
       <div className="h-48 bg-gradient-to-r from-blue-500 to-cyan-400 relative overflow-hidden">
         {/* You can add an actual image here */}
         <div className="absolute inset-0 flex items-center justify-center text-4xl font-bold text-white/80">
-          R
+          {/* <Image src="/app/assets/pikapika.jpg" alt="lol" width={45} height={45}/> */}
         </div>
       </div>
       <CardHeader className="space-y-1">
-        <CardTitle className="text-2xl font-bold text-white">Wasiullah Rafeeq</CardTitle>
+        <CardTitle className="text-2xl font-bold text-white">Rishit Butola</CardTitle>
         <CardDescription className="text-blue-300">MERN Dev</CardDescription>
       </CardHeader>
       <CardContent>
-        <p className="text-white/80">Would I be a narcissist if I am actually better than people?  </p>
+        <p className="text-white/80">My Life, My Rules!  </p>
         
         <div className="mt-4 flex flex-wrap gap-2">
           <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">React</span>

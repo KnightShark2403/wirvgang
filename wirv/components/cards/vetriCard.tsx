@@ -18,11 +18,11 @@ const WasiCard = () => {
         </div>
       </div>
       <CardHeader className="space-y-1">
-        <CardTitle className="text-2xl font-bold text-white">Wasiullah Rafeeq</CardTitle>
+        <CardTitle className="text-2xl font-bold text-white">Vettri TopG</CardTitle>
         <CardDescription className="text-blue-300">MERN Dev</CardDescription>
       </CardHeader>
       <CardContent>
-        <p className="text-white/80">Would I be a narcissist if I am actually better than people?  </p>
+        <p className="text-white/80">I am a Vettri!  </p>
         
         <div className="mt-4 flex flex-wrap gap-2">
           <span className="px-2 py-1 bg-blue-500/20 text-blue-200 rounded-full text-xs">React</span>

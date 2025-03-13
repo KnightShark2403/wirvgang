@@ -14,7 +14,13 @@ const WasiCard = () => {
       <div className="h-48 bg-gradient-to-r from-blue-500 to-cyan-400 relative overflow-hidden">
         {/* You can add an actual image here */}
         <div className="absolute inset-0 flex items-center justify-center text-4xl font-bold text-white/80">
-          R
+          <Image 
+                    src="/kirrby.webp" 
+                    alt="Profile" 
+                    layout="fill" 
+                    objectFit="cover" 
+                    priority
+                  />
         </div>
       </div>
       <CardHeader className="space-y-1">

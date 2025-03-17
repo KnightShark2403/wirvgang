@@ -24,7 +24,7 @@ const WasiCard = () => {
       </div>
       <CardHeader className="space-y-1">
         <CardTitle className="text-2xl font-bold text-white">Rishit Butola</CardTitle>
-        <CardDescription className="text-blue-300">MERN Dev</CardDescription>
+        <CardDescription className="text-blue-300">Full stack Developer</CardDescription>
       </CardHeader>
       <CardContent>
         <p className="text-white/80">My Life, My Rules!</p>
